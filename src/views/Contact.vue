@@ -4,6 +4,11 @@
             <h2 class="contact__title">
                 Contact Loren
             </h2>
+            <!--
+            <div id="ad">
+                Ad Panel
+            </div>
+            -->
             <div
                 v-if="submitted"
                 id="thanks"
@@ -148,9 +153,18 @@ export default {
 </script>
 
 <style lang="scss">
+    #ad {
+        position: absolute;
+        background-color: rgba(255,100,0,0.25);
+        padding: 25px;
+        width: 100px;
+        height: 250px;
+        top: 50px;
+        left: 175px;
+    }
     .contact {
         position: relative;
-        max-width: 400px;
+        max-width: 300px;
         margin: 0 auto;
         text-align: left;
 
@@ -193,10 +207,6 @@ export default {
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
             -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
             transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-        }
-
-        input {
-            max-width: 300px;
         }
 
         textarea {
