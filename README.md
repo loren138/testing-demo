@@ -17,7 +17,7 @@ The talk links will be added when they are available.
 1. You will need JDK installed for selenium to work (`brew cask install java`)
 2. Run `npm install`
 
-### Run your visual tests
+### Run your visual tests (codecept)
 1. Run the site `npm run serve`
 2. Run `npm run selenium` (Leave this running while running tests)
 3. Run `npm run test:codecept`
@@ -27,6 +27,14 @@ The talk links will be added when they are available.
 ```
 npm run test:unit
 ```
+
+### Run your e2e tests (cypress)
+
+Note: I have intentionally not used the Vue-cypress plugin so this code is more portable to other frameworks
+and the configuration is more obvious.
+
+1. Run the site `npm run serve`
+2. Run the tests `npm run test:cypress`
 
 ### Compiles and hot-reloads for development
 ```

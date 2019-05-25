@@ -20,7 +20,7 @@ Scenario("Empty Form Errors", (I) => {
     I.waitForElement("#sendBtn");
     I.click("#sendBtn");
     // Make sure at least one error message has loaded
-    I.waitForElement("div.error");
+    I.waitForElement("#nameError");
     I.waitForText("Name is Required!");
     I.saveScreenshot(outputFolder + imageName);
     I.seeVisualDiff(imageName, { tolerance: 2, prepareBaseImage: false });

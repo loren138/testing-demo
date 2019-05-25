@@ -36,6 +36,7 @@
                         >
                         <div
                             v-if="nameError"
+                            id="nameError"
                             class="error"
                         >
                             {{ nameError }}
@@ -54,6 +55,7 @@
                         >
                         <div
                             v-if="emailError"
+                            id="emailError"
                             class="error"
                         >
                             {{ emailError }}
@@ -73,6 +75,7 @@
                     />
                     <div
                         v-if="messageError"
+                        id="messageError"
                         class="error"
                     >
                         {{ messageError }}
@@ -127,7 +130,7 @@ export default {
                 this.messageError = "Message is Required!";
                 valid = false;
             } else if (this.formData.message.length < 10) {
-                this.messageError = "Message is must be at least 10 characters!";
+                this.messageError = "Message must be at least 10 characters!";
                 valid = false;
             } else {
                 this.messageError = "";
