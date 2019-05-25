@@ -6,6 +6,7 @@
             </h2>
             <div
                 v-if="submitted"
+                id="thanks"
                 class="thanks"
             >
                 Thanks for contacting us someone will follow up with you within 2 business days.
@@ -78,7 +79,10 @@
                     </div>
                 </div>
 
-                <button type="submit">
+                <button
+                    id="sendBtn"
+                    type="submit"
+                >
                     Submit form
                 </button>
             </form>
