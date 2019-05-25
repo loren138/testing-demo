@@ -9,6 +9,7 @@
     "selenium": "selenium-standalone install && selenium-standalone start",
     "test:clean": "find ./output -iname '*.png' -delete",
     "test:codecept": "npm run test:clean && find ./output -iname '*.png' -delete && codeceptjs run",
+    "test:cypress": "cypress run",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "codeceptjs-resemblehelper": "^1.5.0",
     "cypress": "^3.3.1",
     "eslint": "^5.16.0",
+    "eslint-plugin-cypress": "^2.2.1",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
     "sass": "^1.20.1",
