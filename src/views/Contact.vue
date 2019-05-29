@@ -8,6 +8,9 @@
             <div id="ad">
                 Ad Panel
             </div>
+            <div id="ad2">
+                Ad Panel
+            </div>
             -->
             <div
                 v-if="submitted"
@@ -161,6 +164,15 @@ export default {
         height: 250px;
         top: 50px;
         left: 175px;
+    }
+    #ad2 {
+        position: absolute;
+        background-color: rgba(255,100,0,0.25);
+        padding: 25px;
+        width: 100px;
+        height: 250px;
+        top: 50px;
+        left: 0;
     }
     .contact {
         position: relative;
