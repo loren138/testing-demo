@@ -10,6 +10,7 @@
     "test:clean": "find ./output -iname '*.png' -delete",
     "test:codecept": "npm run test:clean && find ./output -iname '*.png' -delete && codeceptjs run",
     "test:cypress": "cypress run",
+    "test:co": "cypress open",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
