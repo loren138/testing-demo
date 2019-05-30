@@ -66,8 +66,8 @@ export default {
     a {
         color: #42b983;
     }
-
-    /*div.thanks {
+/*
+    div.thanks {
         border: 3px solid #2c3e50;
         font-size: 25px;
         max-width: 300px;
@@ -76,5 +76,6 @@ export default {
         background-color: #1fc8db;
         background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
         max-height: 50px;
-    }*/
+    }
+ */
 </style>
