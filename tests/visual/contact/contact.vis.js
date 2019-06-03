@@ -19,7 +19,7 @@ Scenario("Empty Form Errors", (I) => {
     // Make sure the page has loaded
     I.waitForElement("#sendBtn");
     I.click("#sendBtn");
-    // Make sure at least one error message has loaded
+    // Make sure error message has loaded
     I.waitForElement("#nameError");
     I.waitForText("Name is Required!");
     I.saveScreenshot(outputFolder + imageName);
