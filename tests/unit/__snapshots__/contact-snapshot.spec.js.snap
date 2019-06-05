@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact.vue reveals thank you when submitted 1`] = `
+<div class="content-box contact">
+  <div>
+    <h2 class="contact__title">
+      Contact Loren
+    </h2>
+    <div id="thanks" class="thanks">
+      Thanks for contacting us someone will follow up with you within 2 business days.
+    </div>
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`Contact.vue shows required errors 1`] = `
+<div class="content-box contact">
+  <div>
+    <h2 class="contact__title">
+      Contact Loren
+    </h2>
+    <!---->
+    <form name="contact" method="post"><input type="hidden" name="form-name" value="contact">
+      <div class="sender-info">
+        <div><label for="name" class="error">Your name:</label> <input id="name" type="text" name="name">
+          <div id="nameError" class="error">
+            Name is Required!
+          </div>
+        </div>
+        <div><label for="email" class="error">Your email:</label> <input id="email" type="email" name="email">
+          <div id="emailError" class="error">
+            Email is Required!
+          </div>
+        </div>
+      </div>
+      <div class="message-wrapper"><label for="message" class="error">Message:</label> <textarea id="message" name="message"></textarea>
+        <div id="messageError" class="error">
+          Message is Required!
+        </div>
+      </div> <button id="sendBtn" type="submit">
+        Submit form
+      </button>
+    </form>
+  </div>
+</div>
+`;
