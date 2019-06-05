@@ -4,6 +4,8 @@ node_modules
 
 /tests/e2e/reports/
 selenium-debug.log
+/cypress/videos
+/cypress/screenshots
 
 # local env files
 .env.local
