@@ -3,11 +3,8 @@
         id="home"
         class="home"
     >
-        <img
-            alt="Vue logo"
-            src="../assets/logo.png"
-        >
-        <h1>Test Your Website</h1>
+        <h1>Keep Looking Good</h1>
+        <h2>An Introduction To Visual Regression Testing</h2>
         <h3>Essential Links</h3>
         <ul>
             <li>
@@ -15,18 +12,18 @@
                     href="https://github.com/loren138/testing-demo"
                     target="_blank"
                     rel="noopener"
-                >Repo</a>
+                >Testing Repo</a>
             </li>
             <li>
                 <a
                     href="https://vimeo.com/user97137098"
                     target="_blank"
                     rel="noopener"
-                >Video</a>
+                >Video (Coming Soon)</a>
             </li>
             <li>
                 <a
-                    href="https://klingman.us"
+                    href="http://files.klingman.us/keep-looking-good.pdf"
                     target="_blank"
                     rel="noopener"
                 >Slides</a>
