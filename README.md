@@ -2,7 +2,8 @@
 
 This repository is the code sample to go with my visual regression and types of testing talks.
 
-The talk links will be added when they are available.
+Video: https://vimeo.com/351646846
+Slides: http://files.klingman.us/keep-looking-good.pdf
 
 ## To Do:
 
