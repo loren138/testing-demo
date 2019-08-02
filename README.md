@@ -2,7 +2,10 @@
 
 This repository is the code sample to go with my visual regression and types of testing talks.
 
-Video: https://vimeo.com/351646846  
+Video: 
+- Full Length (32m): https://vimeo.com/351646846  
+- Lightning (4.5m): https://vimeo.com/328997531
+
 Slides: http://files.klingman.us/keep-looking-good.pdf
 
 ## To Do:
